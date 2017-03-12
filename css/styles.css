@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    background-color: #fff;
+}
+div.calculator {
+    width: 400px;
+    height: 450px;
+
+    background-color: #ccc;
+}
+
+div.visor p{
+    color: black;
+}
+/*botoes normais*/
+div.buttons > div > button {
+    width: 70px;
+    height: 40px;
+    /*margin: */
+}
+/*igual*/
+div.buttons > button {
+    width: 70px;
+    height: 90px;
+    /*margin: */
+}
