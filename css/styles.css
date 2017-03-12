@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #fff;
+    background-color: yellow;
 }
 div.calculator {
     width: 400px;
@@ -9,8 +9,18 @@ div.calculator {
     background-color: #ccc;
 }
 
+div.visor {
+    margin: 15px;
+}
+
 div.visor p{
+    text-align: right;
+    font-size: 30px;
+    height: 60px;
+    background-color: white;
     color: black;
+    margin: 0px;
+    padding-right: 12px;
 }
 /*botoes normais*/
 div.buttons > div > button {
