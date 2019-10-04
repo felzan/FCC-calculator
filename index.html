@@ -1,49 +1,48 @@
-<!doctype html>
+<!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>FCC Calculator</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <title>FCC Calculator</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  </head>
 
-<body>
+  <body>
     <div class="calculator">
-        <div class="top">
-            
-        </div>
-        <div class="visor">
-            <p id="visor"></p>
-        </div>
+      <div class="top"></div>
+      <div class="visor">
+        <p id="visor"></p>
+      </div>
 
-        <div class="clear">
-            <button id="clear">Limpar</button>
-        </div>
+      <div class="clear">
+        <button id="clear">Limpar</button>
+      </div>
 
+      <div class="centered-content">
         <div class="buttons">
-            <div class="numbers">
-                <button id="d1">1</button>
-                <button id="d2">2</button>
-                <button id="d3">3</button>
-                <button id="d4">4</button>
-                <button id="d5">5</button>
-                <button id="d6">6</button>
-                <button id="d7">7</button>
-                <button id="d8">8</button>
-                <button id="d9">9</button>
-                <button id="d0">0</button>
-            </div>
-            <div class="operations">
-                <button id="sum">+</button>
-                <button id="sub">-</button>
-                <button id="mul">*</button>
-                <button id="div">/</button>
-            </div>
-             
-            <button id="equal">=</button>
+          <div class="numbers">
+            <button id="d1">1</button>
+            <button id="d2">2</button>
+            <button id="d3">3</button>
+            <button id="d4">4</button>
+            <button id="d5">5</button>
+            <button id="d6">6</button>
+            <button id="d7">7</button>
+            <button id="d8">8</button>
+            <button id="d9">9</button>
+            <button id="d0">0</button>
+            <button id="dot">.</button>
+          </div>
         </div>
+        <div class="operations">
+          <div class="block"><button id="sum">+</button> <button id="sub">-</button></div>
+
+          <div class="block"><button id="mul">*</button> <button id="div">/</button></div>
+          <button id="equal">=</button>
+        </div>
+      </div>
     </div>
-  <script src="js/scripts.js"></script>
-</body>
+    <script src="js/scripts.js"></script>
+  </body>
 </html>
